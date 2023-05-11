@@ -1,5 +1,5 @@
 :root {
-
+    --text-color-black: #2e2f42;
 }
 
 body {
@@ -55,4 +55,57 @@ body {
 }
 .footer {
     background-color: #2e2f42;
+}
+.hero {
+    background-color: #2e2f42;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus
+{
+    background-color: #404BBF;
+}
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color-black);
+}
+.list-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--text-color-black);
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-list__item {
+    background-color: #ffffff;
+}
+.team-list__item-work {
+    line-height: 1.5
 }
