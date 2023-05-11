@@ -1,5 +1,7 @@
 :root {
     --text-color-black: #2e2f42;
+    --text-color-blue: #4d5ae5;
+    --color-white: #F4F4FD;
 }
 
 body {
@@ -108,4 +110,20 @@ body {
 }
 .team-list__item-work {
     line-height: 1.5
+}
+.portfolio-nav__button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-color-blue);
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+.portfolio-nav__button:hover,
+.portfolio-nav__button:focus
+{
+    color: #ffffff;
+    background-color: #404BBF;
 }
