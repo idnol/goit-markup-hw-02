@@ -1,6 +1,7 @@
 :root {
     --text-color-black: #2e2f42;
     --text-color-blue: #4d5ae5;
+    --text-color-grey: #434455;
     --color-white: #F4F4FD;
 }
 
@@ -93,6 +94,7 @@ body {
 .list-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--text-color-grey);
 }
 .section-title {
     font-size: 36px;
